@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DiaryAPp</title>
+    
+    <link rel="stylesheet" href="~/css/ssite.css" />
+</head>
+<body>
+    <header>
+
+        <nav class="mursu" style="background-color:black">
+            
+                <a class="sipuli"asp-area="" asp-controller="Home" asp-action="Index"> Oppipäiväkirja  </a>
+
+                <span class="navbar-toggler-icon"></span>
+
+
+           
+        </nav>
+    </header>
+
+    <div class="rolli">
+        <a class="nav-link" asp-area="" asp-controller="Topics" asp-action="Create"><button onclick="">Lisää aiheita</button></a>
+        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index"><button>Etusivu</button></a>
+        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Haku"><button>Hae aiheita</button></a>
+        <a class="nav-link " asp-area="" asp-controller="Topics" asp-action=""><button>Tarkasta aiheesi</button></a>
+
+    </div>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+       
+    </footer>
+    <div class="contti">
+        <br /><br />
+        <input type="button" id="pollari" onclick="osama()">
+        <a style="color:antiquewhite;">Poliisi -</a> - <a style="color: dodgerblue" href="https://poliisi.fi/tee-rikosilmoitus">Tee rikosilmoitus</a>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+   
+</body>
+</html>

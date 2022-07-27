@@ -1,0 +1,211 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+   text-align:center;
+}
+.mursu {
+    width: auto;
+    padding: 40px;
+    
+    text-align: center;
+   
+    text-decoration: none;
+    font-variant: small-caps;
+    border: 4mm ridge rgba( 255,215,0, .7);
+    border-radius: 5px;
+}
+
+.sipuli {
+    color: antiquewhite;
+    text-decoration-style:dotted;
+    font-size: 60px;
+    text-align: center;
+    
+}
+.jorma {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.rolli {
+    
+    text-align:center;
+    width: auto;
+    height: 200px;
+    padding-top: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4mm ridge rgba( 255,215,0, .7);
+    font-size: 18px;
+}
+tr {
+    color: black;
+    background-color: #f3d704;
+}
+td{
+    font-size: 15px;
+    font-variant: normal;
+}
+h1 {
+    color: antiquewhite;
+    font-size: 50px;
+    font-variant: small-caps;
+    text-align: center;
+}
+.table {
+    color: antiquewhite;
+    font-variant: small-caps;
+    border: 4mm ridge rgba( 255,215,0, .7);
+    border-radius: 5px;
+}
+.control-label{
+    color:antiquewhite;
+    text-align: center;
+}
+.text-center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+    .text-center input {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        background-image: url(Bondopeningbanner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 46%;
+        box-sizing: border-box;
+        color: darkred;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        overflow: hidden;
+        font-size: 35px;
+        border: 7mm ridge rgba(96, 96, 96, .7);
+    }
+    .text-center button {
+        background: #FFD700;
+        text-shadow: inherit;
+        border: 4mm ridge rgba(255,215,0, .7);
+        border-radius: 4px;
+    }
+
+#form-group {
+    text-align:center;
+    
+}
+
+.control-label {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 22px;
+    font-variant: small-caps;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-control {
+    color: antiquewhite;
+    background-color: black;
+    width: 200px;
+    border: 4mm ridge rgba( 255,215,0, .7);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+   
+}
+   
+
+
+button {
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-6);
+    font-size: 40px;
+    color: black;
+    background: #f3d704;
+    padding: var(--size-4) var(--size-8);
+    transform: translateY(calc(var(--y, 0) * 1%)) scale(var(--scale));
+    transition: transform 0.1s;
+    position: relative;
+    font-variant: small-caps;
+    border: 4mm ridge rgba( 255,215,0, .7);
+    border-radius: 5px;
+}
+button:hover {
+    --y: -10;
+    --scale: 1.1;
+    --border-scale: 1;
+}
+
+button:active {
+    --y: 5%;
+    --scale: 0.9;
+    --border-scale: 0.9, 0.8;
+
+}
+.newbutton {
+    background-color: beige;
+}
+
+.footer {
+    
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+}
+a {
+    text-align:left;
+    color: antiquewhite;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: black;
+    
+}
+dd {
+    color: antiquewhite;
+    width: 200px;
+    border: 4mm ridge rgba( 255,215,0, .7);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius:20px;
+}
+dt {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 22px;
+    font-variant: small-caps;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+}
+
+
+.contti {
+   text-align: left;
+    
+    bottom: 10px;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: black;
+    
+    background-size: 100%;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-image: url(paras.webp)
+}
+
+
