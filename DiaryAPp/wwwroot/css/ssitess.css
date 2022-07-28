@@ -5,11 +5,11 @@ a.navbar-brand {
    text-align:center;
 }
 .mursu {
+    position: static;
+    top: 50px;
     width: auto;
     padding: 40px;
-    
     text-align: center;
-   
     text-decoration: none;
     font-variant: small-caps;
     border: 4mm ridge rgba( 255,215,0, .7);
@@ -191,21 +191,24 @@ dt {
 
 
 .contti {
-   text-align: left;
-    
-    bottom: 10px;
+   
+    bottom: 20px;
 }
 
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
     background-color: black;
-    
     background-size: 100%;
     display: grid;
     place-items: center;
     min-height: 100vh;
-    background-image: url(paras.webp)
+    background-image: url(bäkkis.jpg);
+    border-radius: 3%;
+    box-shadow: 0 0 8px 8px black inset;
 }
-
-
+   
+html {
+    background-color: black;
+    border: 2mm ridge rgba( 255,215,0, .7);
+}

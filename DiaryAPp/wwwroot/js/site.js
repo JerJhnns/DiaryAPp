@@ -9,11 +9,6 @@ function getInputValue() {
    
 }
 
-document.getElementById("form-control").mouseOver = function () { mouseOver() };
-function mouseOver() {
-    document.getElementById("form-control").style.background = "red";
-    
-}
 
 function osama() {
 
