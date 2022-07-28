@@ -125,6 +125,7 @@ h1 {
 
 
 button {
+    top: 50px;
     font-family: var(--font-sans);
     font-weight: var(--font-weight-6);
     font-size: 40px;
@@ -200,6 +201,7 @@ body {
     margin-bottom: 60px;
     background-color: black;
     background-size: 100%;
+    
     display: grid;
     place-items: center;
     min-height: 100vh;

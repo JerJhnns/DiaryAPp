@@ -10,7 +10,7 @@ function getInputValue() {
 }
 
 
-function osama() {
+function osuma() {
 
      return alert("Klikkaa linkistä ja tee rikosilmoitus jos tuntuu siltä että pitää valittaa")
    
