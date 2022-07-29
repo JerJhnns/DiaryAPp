@@ -6,10 +6,6 @@
 <link rel="stylesheet" href="~/css/site.css" />
 <h1>Delete</h1>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Topic</h4>
-    <hr />
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Title)
@@ -60,12 +56,11 @@
             @Html.DisplayFor(model => model.CompletionDate)
         </dd>
     </dl>
-    <button id="kakkalle" onclick="kalletar()">testaa</button>
-    <a id="kokoko"></a>
+   
 
-    <form asp-action="Delete">
+    <form asp-action="Delete" id="delete">
         <button type="hidden" asp-for="Id"> Delete</button>
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        
+        
     </form>
 </div>

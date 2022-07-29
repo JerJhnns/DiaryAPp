@@ -4,20 +4,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - DiaryAPp</title>
+    <link rel="stylesheet" href="~/css/sttyle.css" />
     
-    <link rel="stylesheet" href="~/css/ssitess.css" />
+    
 </head>
 <body>
     <header>
-
+        <br /><br /><br />
         <nav class="mursu" style="background-color:black">
-            
-                <a class="sipuli"asp-area="" asp-controller="Home" asp-action="Index"> Oppipäiväkirja  </a>
 
-                <span class="navbar-toggler-icon"></span>
+            <a class="sipuli" asp-area="" asp-controller="Home" asp-action="Index"> Oppipäiväkirja  </a>
 
+            <span class="navbar-toggler-icon"></span>
 
-           
+            <br />
+
         </nav>
     </header>
 
@@ -26,7 +27,7 @@
         <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index"><button>Etusivu</button></a>
         <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Haku"><button>Hae aiheita</button></a>
         <a class="nav-link " asp-area="" asp-controller="Topics" asp-action=""><button>Tarkasta aiheesi</button></a>
-
+        <br /><br /><br />
     </div>
     <div class="container">
         <main role="main" class="pb-3">
@@ -35,18 +36,30 @@
     </div>
 
     <footer class="border-top footer text-muted">
-       
     </footer>
     <div class="contti">
-        <br /><br />
-        <input type="button" id="pollari" onclick="osama()"fdsdsf >
-        <a style="color:antiquewhite;">Poliisi -</a> - <a style="color: dodgerblue" href="https://poliisi.fi/tee-rikosilmoitus">Tee rikosilmoitus</a>
-    </div>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <br /><br /><br /><br />
 
+        
+            <div class="col-md-12">
+                <div class="info">
+                
+                    <img src="~/css/Gtk-dialog-info.svg.png" class="icon-info-sign">
+                    <h3 id="tekstiyks">Testii</h3>
+
+                </div><br />
+
+            </div>
+        </div>
+    
+    <br /><br /><br /><br />
+    <a style="color:antiquewhite;">Poliisi -</a> - <a style="color: dodgerblue" href="https://poliisi.fi/tee-rikosilmoitus">Tee rikosilmoitus</a>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    
+    
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
-   
+
 </body>
 
 </html>

@@ -139,6 +139,7 @@ namespace DiaryAPp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            
             var topic = await _context.Topic.FindAsync(id);
             _context.Topic.Remove(topic);
             await _context.SaveChangesAsync();

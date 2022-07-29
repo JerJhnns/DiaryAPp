@@ -36,7 +36,12 @@ a.navbar-brand {
     height: 200px;
     padding-top: 20px;
 }
-
+.dd {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4mm ridge rgba( 255,215,0, .7);
+    font-size: 18px;
+}
 table {
     margin-left: auto;
     margin-right: auto;
@@ -213,4 +218,49 @@ body {
 html {
     background-color: black;
     border: 2mm ridge rgba( 255,215,0, .7);
+}
+
+.icon-info-sign {
+    height: 30px;
+    width: 30px;
+    content: "Tarvitsetko oikeasti apua";
+}
+* {
+    transition: all .9s ease;
+}
+
+.extra-info {
+    display: none;
+    line-height: 30px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    
+}
+
+.info:hover + .extra-info {
+    display: block;
+    color: black;
+    
+}
+
+.info {
+    font-size: 20px;
+    padding-left: 5px;
+    width: 20px;
+    border-radius: 15px;
+    
+}
+
+.info:hover {
+        background-color: white;
+        padding: 0 0 0 4px;
+        width: 315px;
+        
+        content: "text "
+       
+    }
+.tekstiyks{
+    text-align: center;
 }

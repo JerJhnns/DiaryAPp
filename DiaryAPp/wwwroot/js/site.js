@@ -20,3 +20,27 @@ function kalletar() {
     let text = '<form asp-action="Delete";> </form >';
     document.getElementById("kokoko") = text;
 }
+function ShowMessage() {
+    
+}
+
+
+
+
+
+var poisto = document.getElementById("delete");
+poisto.addEventListener('submit', (event) => {
+    event.preventDefault();
+    var choice = confirm("Delete");
+    if (choice) {
+        poisto.submit();
+    }
+});
+
+
+function muutos(object) {
+    object.style.background = 'hwb(60 30% 40% / .5)';
+}
+function paluumuutos(object){
+    object.style.background = 'black';
+}
